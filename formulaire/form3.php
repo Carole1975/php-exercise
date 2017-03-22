@@ -12,7 +12,7 @@
 	<form action = "/user.php" method = "GET"  >
 
 		<label for = "Name">Nom</label>
-		<input type = "text" name = "name">
+		<input type = "text" name = "Name">
 
 		<label for = "Firstname">Prénom</label>
 		<input type = "text" name = "FirstName">
@@ -24,7 +24,8 @@
 	<?php  
 
 echo $_GET ["Name"];
-echo $_GET ["Firstname"];
+echo $_GET ["FirstName"];
+	
 	?>
 
 
