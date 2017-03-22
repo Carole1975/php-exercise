@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>formulaire1</title>
+	<title>formulaire3</title>
 </head>
 
 <body>
@@ -12,10 +12,10 @@
 	<form action = "/user.php" method = "GET"  >
 
 		<label for = "Name">Nom</label>
-		<input type = "text"/>
+		<input type = "text" name = "name">
 
 		<label for = "Firstname">Prénom</label>
-		<input type = "text"/>
+		<input type = "text" name = "FirstName">
 
 		<input type="submit" value="envoyer">
 
@@ -23,6 +23,8 @@
 
 	<?php  
 
+echo $_GET ["Name"];
+echo $_GET ["Firstname"];
 	?>
 
 
