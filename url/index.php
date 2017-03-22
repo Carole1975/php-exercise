@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-	<title>url1</title>
+	<title>url1 et 2</title>
 </head>
 
 <body>
