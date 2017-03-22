@@ -9,7 +9,7 @@
 <body>
 
 
-	<form action = "/index.php" method = "POST"  >
+	<form action = "/index.php" method = "POST">
 
 	    <select name ="civilité">
 	      <option value = "Monsieur">Monsieur</option>
