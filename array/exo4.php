@@ -12,7 +12,7 @@
 
 $mois = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "décembre"];
 
-echo $mois[7]="ao^ut";
+echo $mois[7]="août";
 
 ?>
 </body>
