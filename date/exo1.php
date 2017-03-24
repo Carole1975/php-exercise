@@ -12,7 +12,7 @@
 $raw = "25. 03. 2017"; 
 $start = DateTime::createFromFormat("d. m. Y", $raw);
 
-echo "Date: " . $start->format("d-m-Y"). "\n";
+echo "Date: " . $start->format("d/m/Y"). "\n";
 
 ?>
 
