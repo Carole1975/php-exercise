@@ -10,13 +10,24 @@
 
 <body>
 
+	<p>
+		<?php
+		echo $_SERVER["HTTP_USER_AGENT"]." ";
+		?>
+	</p>
 
-	<?php
-    echo $_SERVER["HTTP_USER_AGENT"]." ";
-	echo $_SERVER["REMOTE_ADDR"]." ";
-	echo $_SERVER["SERVER_NAME"];
+	<p>
+		<?php
+		echo $_SERVER["REMOTE_ADDR"]." ";
+		?>
+	</p>
 
-	?>
+	<p>
+		<?php
+		echo $_SERVER["SERVER_NAME"];
+		?>
+	</p>
+
 
 </body>
 
