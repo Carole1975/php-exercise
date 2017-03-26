@@ -11,6 +11,7 @@ setcookie("mdp", $_POST["mdp"], time()+ 3600);
  <head>
     <meta charset="utf-8">
  	<title>fiche de connection</title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
  </head>
  
  <body>

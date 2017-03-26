@@ -9,7 +9,6 @@
 
 <body>
 
-	<a href=index2.php>Retour</a>
 
 	<?php
 	session_start();
@@ -30,6 +29,7 @@
 
 	</form>
 
+	<a href=index2.php>Retour</a>
 	
 </body>
 
