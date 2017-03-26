@@ -1,0 +1,18 @@
+body{
+	text-align: center;
+	font-family: trebuchet;
+	background-color: #F8D583;
+	margin-top: 80px;
+	font-size: 40px;
+}
+
+a{
+color: #CA4E00;	
+}
+
+p{
+color: #CA4E00;
+font-weight: bold;
+text-decoration: underline;
+font-family: trebuchet;	
+}
