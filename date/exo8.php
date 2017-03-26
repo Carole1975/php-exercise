@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Date7</title>
+	<title>Date8</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 
 	<p>
 		<?php  
-		echo date ("d-m-Y",strtotime("+20 days"));
+		echo date ("d-m-Y",strtotime("-22 days"));
 
 		?>
 	</p>
